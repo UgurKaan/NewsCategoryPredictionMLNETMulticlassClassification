@@ -46,7 +46,7 @@ namespace MulticlassCategorize
             var result = predictionEngine.Predict(new Model.NewsInput()
             {
                 Title = "The dark man killed 3 women too",
-                Body = "A man called the dark man killed three women because they were speaking very loudly in the metro station. A lot of mistress saw the event"
+                Body = "A man called the dark man killed three women because they were speaking very loudly in the metro station. A lot of witness saw the event"
             });
             Console.WriteLine(result.PredictLabel);
         }
